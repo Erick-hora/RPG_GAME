@@ -11,3 +11,5 @@ VelocH = 0;
 VelocV = 0;
 
 dir = 0;
+
+estado = scr_personagem_andando;
