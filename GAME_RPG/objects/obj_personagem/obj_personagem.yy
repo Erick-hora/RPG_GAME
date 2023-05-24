@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_personagem",
-    "path": "sprites/spr_personagem/spr_personagem.yy",
+    "name": "spr_personagem_parado_baixo",
+    "path": "sprites/spr_personagem_parado_baixo/spr_personagem_parado_baixo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,3 +9,5 @@ Veloc = 2;
 
 VelocH = 0;
 VelocV = 0;
+
+dir = 0;
