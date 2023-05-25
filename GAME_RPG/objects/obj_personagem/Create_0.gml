@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+// movimentaçãor
 Direita = 2;
 Baixo  = 2;
 Esquerda = 2;
@@ -12,4 +12,10 @@ VelocV = 0;
 
 dir = 0;
 
+//Dash
+Dash_dir = -1;
+dash_veloc = 6; 
+
+
+//Estado
 estado = scr_personagem_andando;

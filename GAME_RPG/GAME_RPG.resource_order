@@ -23,6 +23,7 @@
     {"name":"spr_personagem_correndo_direita","order":9,"path":"sprites/spr_personagem_correndo_direita/spr_personagem_correndo_direita.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
+    {"name":"obj_dash","order":3,"path":"objects/obj_dash/obj_dash.yy",},
     {"name":"spr_personagem_correndo_cima","order":8,"path":"sprites/spr_personagem_correndo_cima/spr_personagem_correndo_cima.yy",},
     {"name":"spr_sombra","order":12,"path":"sprites/spr_sombra/spr_sombra.yy",},
     {"name":"spr_personagem_parado_baixo","order":11,"path":"sprites/spr_personagem_parado_baixo/spr_personagem_parado_baixo.yy",},

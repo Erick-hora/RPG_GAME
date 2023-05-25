@@ -31,6 +31,7 @@ y+= VelocV;
 
 //Mudança de sprite
 dir = floor((point_direction(x, y, mouse_x, mouse_y)+ 45)/90);
+
 if VelocH == 0 and VelocV = 0 { 
 switch dir{
 		default:
@@ -79,6 +80,23 @@ switch dir{
 		sprite_index = spr_personagem_correndo_baixo;
 	
 	break;
+	}
+
 }
+
+if mouse_check_button_pressed(mb_right) {
+	alarm[0] = 8;
+	Dash_dir = point_direction(x, y, mouse_x, mouse_y);
+	estado = scr_personagem_dash;
+	}
 }
+
+
+function scr_personagem_dash() {
+	VelocH = lengthdir_x(dash_veloc, Dash_dir);
+	VelocV = lengthdir_y(dash_veloc, Dash_dir);
+	x += VelocH;
+	y += VelocV;
+	var _inst = instance_create_layer(x, y, "instances", obj_dash);
+	_inst.sprite_index = sprite_index;
 }
