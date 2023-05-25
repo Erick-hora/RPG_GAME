@@ -36,10 +36,13 @@
   "resources": [
     {"id":{"name":"spr_personagem_t","path":"sprites/spr_personagem_t/spr_personagem_t.yy",},},
     {"id":{"name":"spr_personagem_correndo_baixo","path":"sprites/spr_personagem_correndo_baixo/spr_personagem_correndo_baixo.yy",},},
+    {"id":{"name":"spr_slime_sombra","path":"sprites/spr_slime_sombra/spr_slime_sombra.yy",},},
     {"id":{"name":"spr_personagem_parado_direita","path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",},},
     {"id":{"name":"spr_personagem_correndo_direita","path":"sprites/spr_personagem_correndo_direita/spr_personagem_correndo_direita.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"spr_slime_andando","path":"sprites/spr_slime_andando/spr_slime_andando.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
+    {"id":{"name":"obj_slime_pequeno","path":"objects/obj_slime_pequeno/obj_slime_pequeno.yy",},},
     {"id":{"name":"obj_dash","path":"objects/obj_dash/obj_dash.yy",},},
     {"id":{"name":"spr_personagem_correndo_cima","path":"sprites/spr_personagem_correndo_cima/spr_personagem_correndo_cima.yy",},},
     {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},

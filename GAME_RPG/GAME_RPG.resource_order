@@ -19,10 +19,13 @@
   "ResourceOrderSettings": [
     {"name":"spr_personagem_t","order":2,"path":"sprites/spr_personagem_t/spr_personagem_t.yy",},
     {"name":"spr_personagem_correndo_baixo","order":7,"path":"sprites/spr_personagem_correndo_baixo/spr_personagem_correndo_baixo.yy",},
+    {"name":"spr_slime_sombra","order":14,"path":"sprites/spr_slime_sombra/spr_slime_sombra.yy",},
     {"name":"spr_personagem_parado_direita","order":5,"path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",},
     {"name":"spr_personagem_correndo_direita","order":9,"path":"sprites/spr_personagem_correndo_direita/spr_personagem_correndo_direita.yy",},
     {"name":"obj_camera","order":2,"path":"objects/obj_camera/obj_camera.yy",},
+    {"name":"spr_slime_andando","order":13,"path":"sprites/spr_slime_andando/spr_slime_andando.yy",},
     {"name":"spr_parede","order":1,"path":"sprites/spr_parede/spr_parede.yy",},
+    {"name":"obj_slime_pequeno","order":4,"path":"objects/obj_slime_pequeno/obj_slime_pequeno.yy",},
     {"name":"obj_dash","order":3,"path":"objects/obj_dash/obj_dash.yy",},
     {"name":"spr_personagem_correndo_cima","order":8,"path":"sprites/spr_personagem_correndo_cima/spr_personagem_correndo_cima.yy",},
     {"name":"spr_sombra","order":12,"path":"sprites/spr_sombra/spr_sombra.yy",},
