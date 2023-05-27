@@ -41,6 +41,7 @@
     {"id":{"name":"spr_personagem_correndo_direita","path":"sprites/spr_personagem_correndo_direita/spr_personagem_correndo_direita.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_slime_andando","path":"sprites/spr_slime_andando/spr_slime_andando.yy",},},
+    {"id":{"name":"scr_inimigo_slime","path":"scripts/scr_inimigo_slime/scr_inimigo_slime.yy",},},
     {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
     {"id":{"name":"obj_slime_pequeno","path":"objects/obj_slime_pequeno/obj_slime_pequeno.yy",},},
     {"id":{"name":"obj_dash","path":"objects/obj_dash/obj_dash.yy",},},
