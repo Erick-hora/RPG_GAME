@@ -109,6 +109,29 @@ if mouse_check_button_pressed(mb_right) {
 	estado = scr_personagem_dash;
 		}
 	}
+if mouse_check_button_pressed(mb_left){
+	image_index = 0;
+switch dir {
+	//direita
+	default:
+		sprite_index = spr_personagem_atacando_direita;
+	break;
+	//cima
+	case 1:
+		sprite_index = spr_personagem_atacando_cima;
+	break;
+	//esquerda
+	case 2:
+		sprite_index = spr_personagem_atacando_esquerda;
+	break;
+	//baixo
+	case 3:
+		sprite_index = spr_personagem_atacando_baixo;
+	break;
+	
+		}	
+		Estado = scr_personagem_atacando;
+	}	
 }
 
 
@@ -120,4 +143,30 @@ function scr_personagem_dash() {
 	
 	var _inst = instance_create_layer(x, y, "instances", obj_dash);
 	_inst.sprite_index = sprite_index;
+}
+
+function scr_personagem_atacando(){
+	if image_index >= 1 {
+	if atacar == false {
+	switch dir {
+	//direita
+	default:
+		instance_create_layer(x + 10, y, "instances", obj_personagem_hitbox);
+	break;
+	//cima
+	case 1:
+	instance_create_layer(x , y - 10, "instances", obj_personagem_hitbox);
+	break;
+	//esquerda
+	case 2:
+	instance_create_layer(x - 10, y, "instances", obj_personagem_hitbox);
+	break;
+	//baixo
+	case 3:
+		instance_create_layer(x, y + 10, "instances", obj_personagem_hitbox);
+	break;
+	}
+	atacar = true;
+	}	
+	}
 }

@@ -25,3 +25,5 @@ estado = scr_personagem_andando;
 //combate
 Max_stamina = 100;
 Stamina =  Max_stamina;
+dano = 1;
+atacar = false;

@@ -16,3 +16,5 @@ alarm[0] = 1;
 
 Dist_aggro = 50;
 Dist_desaggro = 100;
+
+vida = 5;
