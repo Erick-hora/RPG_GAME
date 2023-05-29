@@ -130,7 +130,7 @@ switch dir {
 	break;
 	
 		}	
-		Estado = scr_personagem_atacando;
+		estado = scr_personagem_atacando;
 	}	
 }
 
