@@ -80,3 +80,12 @@ function scr_slime_perserguir() {
 	alarm[0] = irandom_range(120, 240);
 	}
 }
+	
+function scr_slime_hit(){
+	empurrar_veloc = lerp(empurrar_veloc, 0, 0.01);
+	
+	VelocH = lengthdir_x(empurrar_veloc, empurrar_dir);
+	VelocV = lengthdir_y(empurrar_veloc, empurrar_dir);
+	
+	scr_personagem_colisao();
+}

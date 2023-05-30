@@ -169,4 +169,8 @@ function scr_personagem_atacando(){
 	atacar = true;
 	}	
 	}
+	if fim_da_animacao() {
+		estado = scr_personagem_andando;
+		atacar = false;
+	}
 }

@@ -52,6 +52,7 @@
     {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},
     {"id":{"name":"spr_personagem_parado_baixo","path":"sprites/spr_personagem_parado_baixo/spr_personagem_parado_baixo.yy",},},
     {"id":{"name":"spr_personagem_correndo_esquerda","path":"sprites/spr_personagem_correndo_esquerda/spr_personagem_correndo_esquerda.yy",},},
+    {"id":{"name":"scr_function","path":"scripts/scr_function/scr_function.yy",},},
     {"id":{"name":"obj_personagem_hitbox","path":"objects/obj_personagem_hitbox/obj_personagem_hitbox.yy",},},
     {"id":{"name":"obj_personagem","path":"objects/obj_personagem/obj_personagem.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
