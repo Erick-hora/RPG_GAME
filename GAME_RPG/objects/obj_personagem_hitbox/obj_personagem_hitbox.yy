@@ -34,5 +34,5 @@
     "path": "sprites/spr_hitbox_personagem/spr_hitbox_personagem.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
