@@ -25,5 +25,12 @@ estado = scr_personagem_andando;
 //combate
 Max_stamina = 100;
 Stamina =  Max_stamina;
+vida_max = 20;
+vida = vida_max;
+
+tomardano = true;
+empurrar_dir = 0;
+danoalpha = -1;
+
 dano = 1;
 atacar = false;

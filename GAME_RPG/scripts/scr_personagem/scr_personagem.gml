@@ -136,6 +136,7 @@ switch dir {
 
 
 function scr_personagem_dash() {
+	tomardano = false;
 	VelocH = lengthdir_x(dash_veloc, Dash_dir);
 	VelocV = lengthdir_y(dash_veloc, Dash_dir);
 	
@@ -172,5 +173,16 @@ function scr_personagem_atacando(){
 	if fim_da_animacao() {
 		estado = scr_personagem_andando;
 		atacar = false;
+	}
+}
+	
+function scr_personagem_hit() {
+	if alarm[2] > 0 {
+		VelocH = lengthdir_x(5, empurrar_dir);
+		VelocV = lengthdir_y(5, empurrar_dir);
+		
+		scr_personagem_colisao();
+	} else { 
+	     estado = scr_personagem_andando;
 	}
 }
